@@ -1,0 +1,38 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/kietnguyen/esp/project2/sdkconfig
+-- App "project2" version: 1
+-- Adding linker script /home/kietnguyen/esp/project2/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/kietnguyen/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json led log lora lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/kietnguyen/esp/esp-idf/components/app_trace /home/kietnguyen/esp/esp-idf/components/app_update /home/kietnguyen/esp/esp-idf/components/bootloader /home/kietnguyen/esp/esp-idf/components/bootloader_support /home/kietnguyen/esp/esp-idf/components/bt /home/kietnguyen/esp/esp-idf/components/cmock /home/kietnguyen/esp/esp-idf/components/console /home/kietnguyen/esp/esp-idf/components/cxx /home/kietnguyen/esp/esp-idf/components/driver /home/kietnguyen/esp/esp-idf/components/efuse /home/kietnguyen/esp/esp-idf/components/esp-tls /home/kietnguyen/esp/esp-idf/components/esp_adc /home/kietnguyen/esp/esp-idf/components/esp_app_format /home/kietnguyen/esp/esp-idf/components/esp_coex /home/kietnguyen/esp/esp-idf/components/esp_common /home/kietnguyen/esp/esp-idf/components/esp_eth /home/kietnguyen/esp/esp-idf/components/esp_event /home/kietnguyen/esp/esp-idf/components/esp_gdbstub /home/kietnguyen/esp/esp-idf/components/esp_hid /home/kietnguyen/esp/esp-idf/components/esp_http_client /home/kietnguyen/esp/esp-idf/components/esp_http_server /home/kietnguyen/esp/esp-idf/components/esp_https_ota /home/kietnguyen/esp/esp-idf/components/esp_https_server /home/kietnguyen/esp/esp-idf/components/esp_hw_support /home/kietnguyen/esp/esp-idf/components/esp_lcd /home/kietnguyen/esp/esp-idf/components/esp_local_ctrl /home/kietnguyen/esp/esp-idf/components/esp_mm /home/kietnguyen/esp/esp-idf/components/esp_netif /home/kietnguyen/esp/esp-idf/components/esp_netif_stack /home/kietnguyen/esp/esp-idf/components/esp_partition /home/kietnguyen/esp/esp-idf/components/esp_phy /home/kietnguyen/esp/esp-idf/components/esp_pm /home/kietnguyen/esp/esp-idf/components/esp_psram /home/kietnguyen/esp/esp-idf/components/esp_ringbuf /home/kietnguyen/esp/esp-idf/components/esp_rom /home/kietnguyen/esp/esp-idf/components/esp_system /home/kietnguyen/esp/esp-idf/components/esp_timer /home/kietnguyen/esp/esp-idf/components/esp_wifi /home/kietnguyen/esp/esp-idf/components/espcoredump /home/kietnguyen/esp/esp-idf/components/esptool_py /home/kietnguyen/esp/esp-idf/components/fatfs /home/kietnguyen/esp/esp-idf/components/freertos /home/kietnguyen/esp/esp-idf/components/hal /home/kietnguyen/esp/esp-idf/components/heap /home/kietnguyen/esp/esp-idf/components/http_parser /home/kietnguyen/esp/esp-idf/components/idf_test /home/kietnguyen/esp/esp-idf/components/ieee802154 /home/kietnguyen/esp/esp-idf/components/json /home/kietnguyen/esp/project2/components/led /home/kietnguyen/esp/esp-idf/components/log /home/kietnguyen/esp/project2/components/lora /home/kietnguyen/esp/esp-idf/components/lwip /home/kietnguyen/esp/project2/main /home/kietnguyen/esp/esp-idf/components/mbedtls /home/kietnguyen/esp/esp-idf/components/mqtt /home/kietnguyen/esp/esp-idf/components/newlib /home/kietnguyen/esp/esp-idf/components/nvs_flash /home/kietnguyen/esp/esp-idf/components/openthread /home/kietnguyen/esp/esp-idf/components/partition_table /home/kietnguyen/esp/esp-idf/components/perfmon /home/kietnguyen/esp/esp-idf/components/protobuf-c /home/kietnguyen/esp/esp-idf/components/protocomm /home/kietnguyen/esp/esp-idf/components/pthread /home/kietnguyen/esp/esp-idf/components/sdmmc /home/kietnguyen/esp/esp-idf/components/soc /home/kietnguyen/esp/esp-idf/components/spi_flash /home/kietnguyen/esp/esp-idf/components/spiffs /home/kietnguyen/esp/esp-idf/components/tcp_transport /home/kietnguyen/esp/esp-idf/components/ulp /home/kietnguyen/esp/esp-idf/components/unity /home/kietnguyen/esp/esp-idf/components/usb /home/kietnguyen/esp/esp-idf/components/vfs /home/kietnguyen/esp/esp-idf/components/wear_levelling /home/kietnguyen/esp/esp-idf/components/wifi_provisioning /home/kietnguyen/esp/esp-idf/components/wpa_supplicant /home/kietnguyen/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kietnguyen/esp/project2/build
+[1/12] Building C object esp-idf/led/CMakeFiles/__idf_led.dir/src/led.c.obj
+[2/12] Linking C static library esp-idf/led/libled.a
+[3/12] Performing build step for 'bootloader'
+[1/1] cd /home/kietnguyen/esp/project2/build/bootloader/esp-idf/esptool_py && /home/kietnguyen/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/kietnguyen/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/kietnguyen/esp/project2/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Building C object CMakeFiles/project2.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable project2.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/kietnguyen/esp/project2/build/project2.bin
+[10/10] cd /home/kietnguyen/esp/project2/build/esp-idf/esptool_py && /home/kietnguyen/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/kietnguyen/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/kietnguyen/esp/project2/build/partition_table/partition-table.bin /home/kietnguyen/esp/project2/build/project2.bin
+project2.bin binary size 0x2aaa0 bytes. Smallest app partition is 0x100000 bytes. 0xd5560 bytes (83%) free.

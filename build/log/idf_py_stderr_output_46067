@@ -1,0 +1,9 @@
+CMake Error at /home/kietnguyen/esp/esp-idf/tools/cmake/project.cmake:349 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /home/kietnguyen/esp/project2/components/led/include/lora.h
+Call Stack (most recent call first):
+  /home/kietnguyen/esp/esp-idf/tools/cmake/project.cmake:433 (__project_init)
+  CMakeLists.txt:9 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

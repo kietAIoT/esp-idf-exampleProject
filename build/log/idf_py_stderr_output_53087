@@ -1,0 +1,11 @@
+CMake Error at CMakeLists.txt:7 (add_subdirectory):
+  The source directory
+
+    /home/kietnguyen/esp/project2/include
+
+  does not contain a CMakeLists.txt file.
+
+
+Compiler supported targets: xtensa-esp32-elf
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

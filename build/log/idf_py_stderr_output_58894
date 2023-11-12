@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:4 (include):
+  include requested file is a directory:
+
+    include
+
+
+Compiler supported targets: xtensa-esp32-elf
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
